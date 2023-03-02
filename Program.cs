@@ -15,3 +15,5 @@ var player = new Player(name);
 
 Console.WriteLine(Text.Language.Welcome, player.Name);
 //If you want to make different languages, you can just register them with a singleton, and all references to the singleton property will return a localized text
+
+var house = new House(player);
